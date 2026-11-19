@@ -1,0 +1,8 @@
+#_____________________Aufgabe3_______________________
+def Rechteck (breite, hoehe):
+    i=1
+    while i<=hoehe:
+        print('*'*breite)
+        i=i+1
+def Quadrat (breite):
+    Rechteck (breite,breite)
