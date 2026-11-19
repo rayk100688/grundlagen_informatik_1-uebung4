@@ -1,0 +1,21 @@
+#_____________________Aufgabe2_______________________
+def Geradezahlen (n):
+    i=1
+    zahl=0
+    while i<=2*n:
+        if i%2==0:
+            zahl=zahl+i
+            i=i+1
+        else:
+            i=i+1
+    print (f"{zahl}")
+#_________________Aufgabe 2 ohne Zähler_____________
+def summe_gerader_zahlen (anz):
+    summe = 0
+    while anz>0: 
+        if anz%2==0:
+            summe=summe+anz
+            anz=anz-1
+        else:
+            anz=anz-1    
+    print(f"{summe}")
